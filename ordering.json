@@ -1,0 +1,34 @@
+{
+    "keysOrder": ["Type of Label", "Type of Data", "Type of Labeler", "Error Treatment", "Guidance", "Label Input Format", "Proactivity", "Subset Sampling", "Order of Presentation", "Termination Criterion", "Instance Relations", "Model Training", "Performance", "Psychology"],
+    
+    "buttonsOrder": {
+      "Type of Label": ["Binary Classification", "Multi-Class Classification", "Bounding Box / Rough Location", "Segmentation / Exact Location", "Meta Labels", "Other Types"],
+      "Type of Data": ["Imagery", "3D Imagery", "Audio-Visual Recordings", "Text", "Compound & Structured Data", "Time-Series Data"],
+      "Type of Labeler": ["Domain Experts", "Nondescript Users", "Crowdworkers"],
+      "Error Treatment": ["Unerring Oracle", "Ignore User Errors", "Identify User Errors"], 
+      "Guidance": ["Prescribing", "Directing", "Orienting", "Not Reported"], 
+      "Label Input Format": ["Creation from Scratch", "Approval or Correction", "Approval or Rejection", "Mixed"], 
+      "Proactivity": ["System", "User"], 
+      "Subset Sampling": ["Choice-based", "Comparison-based", "Uncertainty-based", "Error-based", "Random", "Mixed"], 
+      "Order of Presentation": ["By Instance", "By Label", "Random"],
+      "Termination Criterion": ["User Dependent", "Prediction Quality", "All Data is Labeled", "Budget Constraint"], 
+      "Instance Relations": ["Instance Between-Group", "Instance Within-Group", "Instance Neighbors", "Instance Only"], 
+      "Model Training": ["Pre-trained", "On-the-fly", "Pre- and Re-trained", "Ex-post"], 
+      "Performance": ["Efficiency", "Effectiveness", "Both", "Not Reported"], 
+      "Psychology": ["Well-being", "Trust", "Perceived Usefulness", "Cognitive Load", "Motivation", "Boredom", "Mixed", "Not Reported"]
+    },
+    "groups": [
+      {
+        "name": "Antecedents",
+        "keys": ["Type of Label", "Type of Data", "Type of Labeler"]
+      },
+      {
+        "name": "Design Features",
+        "keys": ["Error Treatment", "Guidance", "Label Input Format", "Proactivity", "Subset Sampling", "Order of Presentation", "Termination Criterion", "Instance Relations", "Model Training"]
+      },
+      {
+        "name": "Outcomes",
+        "keys": ["Performance", "Psychology"]
+      }
+    ]
+  }

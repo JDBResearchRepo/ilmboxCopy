@@ -1,9 +1,49 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Testtitle</title>
-  </head>
-  <body>
-    <p>Testbody</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <link rel="apple-touch-icon" href="favicon.png">
+  <title>Interactive Labeling - Morphological Box</title>
+</head>
+
+<body>
+  <div id="title-bar">
+    <span class="icon"><img src="icon.svg" alt="Icon" /></span>
+    <h1>Interactive Labeling - Morphological Box</h1>
+  </div>
+  <div id="main-content">
+    <div id="filters">
+      <!-- Filters will be added here -->
+    </div>
+    <div id="table-wrapper">
+      <table id="papers-table">
+        <thead>
+          <tr>
+            <th id="sort-author">Author(s)</th>
+            <th id="sort-year">Year</th>
+            <th id="sort-paper">Title</th>
+            <th>DOI or URL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Table data will be added here -->
+        </tbody>
+      </table>
+    </div>
+    <p id="no-data-message" style="display: none;">The selected configuration is not present in our data-set.</p>
+  </div>
+  <footer>
+    <p>Please find our accompanying paper <a href = "https://researchgate.com">here</a>.</p>
+    <p>Want to add something to this morphological box?</p>
+    <p><a href = "mailto:merlin.knaeble@kit.edu">Contact</a> us, or create a pull request on <a href = "https://github.com">GitHub</a>.</p>
+    <p>Made with <span id="heart">&hearts;</span> and ChatGPT</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
