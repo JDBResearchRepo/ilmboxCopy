@@ -1,6 +1,6 @@
 # Interactive Labeling - Morphological Box & Box Generator
 
-Feel free to check out the live version at https://human-centered-systems-lab.github.io/ilmbox/
+Please find the live version at https://human-centered-systems-lab.github.io/ilmbox/
 
 If you want to add something to this specific morphological box, please create a pull request.
 
