@@ -9,7 +9,7 @@ async function loadData() {
     try {
         const [jsonData, orderingData] = await Promise.all([
             fetch
-                ('data.json').then((response) => {
+                ('Update data.json').then((response) => {
                     if (!response.ok) {
                         throw new Error(`HTTP error! Status: ${response.status}`);
                     }
@@ -31,7 +31,7 @@ async function loadData() {
 // Load ordering data for the filter keys and buttons
 async function loadOrderingData() {
     try {
-        const response = await fetch('ordering.json');
+        const response = await fetch('Update ordering.json');
         if (!response.ok) {
             console.warn('Could not load ordering JSON data. Using default ordering.');
             return null;
