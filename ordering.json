@@ -1,10 +1,10 @@
 {
-    "keysOrder": ["Type of Label", "Type of Data", "Type of Labeler", "Error Treatment", "Guidance", "Label Input Format", "Proactivity", "Subset Sampling", "Order of Presentation", "Termination Criterion", "Instance Relations", "Model Training", "Performance", "Psychology"],
+    "keysOrder": ["Context", "Device", "Population", "Error Treatment", "Guidance", "Label Input Format", "Proactivity", "Subset Sampling", "Order of Presentation", "Termination Criterion", "Instance Relations", "Model Training", "Performance", "Psychology"],
     
     "buttonsOrder": {
-      "Type of Label": ["Binary Classification", "Multi-Class Classification", "Bounding Box / Rough Location", "Segmentation / Exact Location", "Meta Labels", "Other Types"],
-      "Type of Data": ["Imagery", "3D Imagery", "Audio-Visual Recordings", "Text", "Compound & Structured Data", "Time-Series Data"],
-      "Type of Labeler": ["Domain Experts", "Nondescript Users", "Crowdworkers"],
+      "Context": ["Disease Management", "General Usage", "Health Promotion", "Social Entertainment"],
+      "Device": ["Smartphone", "Tablet", "Both", "Not Defined"],
+      "Population": ["General", "Health Condition", "Group / Setting"],
       "Error Treatment": ["Unerring Oracle", "Ignore User Errors", "Identify User Errors"], 
       "Guidance": ["Prescribing", "Directing", "Orienting", "Not Reported"], 
       "Label Input Format": ["Creation from Scratch", "Approval or Correction", "Approval or Rejection", "Mixed"], 
@@ -19,15 +19,19 @@
     },
     "groups": [
       {
-        "name": "Antecedents",
-        "keys": ["Type of Label", "Type of Data", "Type of Labeler"]
+        "name": "Application",
+        "keys": ["Context", "Device", "Population"]
       },
       {
-        "name": "Design Features",
+        "name": "User Interface (UI)",
         "keys": ["Error Treatment", "Guidance", "Label Input Format", "Proactivity", "Subset Sampling", "Order of Presentation", "Termination Criterion", "Instance Relations", "Model Training"]
       },
       {
-        "name": "Outcomes",
+        "name": "Interaction",
+        "keys": ["Performance", "Psychology"]
+      },
+      {
+        "name": "Human Mind",
         "keys": ["Performance", "Psychology"]
       }
     ]
