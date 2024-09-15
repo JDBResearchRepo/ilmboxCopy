@@ -1,21 +1,17 @@
 {
-    "keysOrder": ["Context", "Device", "Population", "Error Treatment", "Guidance", "Label Input Format", "Proactivity", "Subset Sampling", "Order of Presentation", "Termination Criterion", "Instance Relations", "Model Training", "Performance", "Psychology"],
+    "keysOrder": ["Context", "Device", "Population", "UI Input", "UI Output", "Inward", "Outward", "Cognition", "Affect", "Usability Assessment"],
     
     "buttonsOrder": {
       "Context": ["Disease Management", "General Usage", "Health Promotion", "Social Entertainment"],
       "Device": ["Smartphone", "Tablet", "Both", "Not Defined"],
       "Population": ["General", "Health Condition", "Group / Setting"],
-      "Error Treatment": ["Unerring Oracle", "Ignore User Errors", "Identify User Errors"], 
-      "Guidance": ["Prescribing", "Directing", "Orienting", "Not Reported"], 
-      "Label Input Format": ["Creation from Scratch", "Approval or Correction", "Approval or Rejection", "Mixed"], 
-      "Proactivity": ["System", "User"], 
-      "Subset Sampling": ["Choice-based", "Comparison-based", "Uncertainty-based", "Error-based", "Random", "Mixed"], 
-      "Order of Presentation": ["By Instance", "By Label", "Random"],
-      "Termination Criterion": ["User Dependent", "Prediction Quality", "All Data is Labeled", "Budget Constraint"], 
-      "Instance Relations": ["Instance Between-Group", "Instance Within-Group", "Instance Neighbors", "Instance Only"], 
-      "Model Training": ["Pre-trained", "On-the-fly", "Pre- and Re-trained", "Ex-post"], 
-      "Performance": ["Efficiency", "Effectiveness", "Both", "Not Reported"], 
-      "Psychology": ["Well-being", "Trust", "Perceived Usefulness", "Cognitive Load", "Motivation", "Boredom", "Mixed", "Not Reported"]
+      "UI Input": ["Buttons", "Gesture", "Navigation", "Voice Input", "Not Reported"], 
+      "UI Output": ["Audio / Text-to-Speech", "Colour & Contrast", "Icons & Imagery", "Information Design", "Text Display", "Not Reported"], 
+      "Inward": ["Eyesight", "Hearing", "Touched", "Not Reported"], 
+      "Outward": ["Motor", "Sppech", "Not Reported"], 
+      "Cognition": ["Cognitive Capacity", "Learning", "Memory", "Uncertainity", "Understanding", "Not Reported"], 
+      "Affect": ["Pleasant", "Unpleasant", "Not Reported"],
+      "Usability Assessment": ["Questionnaires", "Interviews", "Observation", "Not Reported"]
     },
     "groups": [
       {
@@ -24,15 +20,15 @@
       },
       {
         "name": "User Interface (UI)",
-        "keys": ["Error Treatment", "Guidance", "Label Input Format", "Proactivity", "Subset Sampling", "Order of Presentation", "Termination Criterion", "Instance Relations", "Model Training"]
+        "keys": ["UI Input", "UI Output"]
       },
       {
         "name": "Interaction",
-        "keys": ["Performance", "Psychology"]
+        "keys": ["Inward", "Outward"]
       },
       {
         "name": "Human Mind",
-        "keys": ["Performance", "Psychology"]
+        "keys": ["Cognition", "Affect", "Usability Assessment"]
       }
     ]
   }
