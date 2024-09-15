@@ -3,7 +3,7 @@
     
     "buttonsOrder": {
       "Context": ["Disease Management", "General Usage", "Health Promotion", "Social Entertainment"],
-      "Device": ["Smartphone", "Tablet", "Both", "Not Defined"],
+      "Device": ["Smartphone", "Tablet", "Both", "Not Reported"],
       "Population": ["General", "Health Condition", "Group / Setting"],
       "UI Input": ["Buttons", "Gesture", "Navigation", "Voice Input", "Not Reported"], 
       "UI Output": ["Audio / Text-to-Speech", "Colour & Contrast", "Icons & Imagery", "Information Design", "Text Display", "Not Reported"], 
