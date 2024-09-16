@@ -120,7 +120,7 @@
   },
   {
     "id": 8,
-    "Paper": "\"My hand doesn't listen to me!\": Adoption and evaluation of a communication technology for the 'oldest old'",
+    "Paper": "My hand doesn't listen to me!: Adoption and evaluation of a communication technology for the 'oldest old'",
     "Year": 2015,
     "DOI_URL": "10.1145/2702123.2702430",
     "Author": "Neves, B. B.; Franz, R. L.; Munteanu, C.; Baecker, R.; Ngo, M.",
@@ -159,7 +159,7 @@
     "DOI_URL": "10.3390/informatics4030015",
     "Author": "Goumopoulos, C.; Papa, I.; Stavrianos, A.",
     "Context": "Disease Management",
-    "Context": "General Use",
+    "Context": "General Usage",
     "Device": "Tablet",
     "Population": "General",
     "UI Input": "leg",
