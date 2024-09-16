@@ -1,11 +1,8 @@
 {
-    "keysOrder": ["ContextDM", "ContextGU", "ContextHP", "ContextSE", "Device", "Population", "UI Input", "UI Output", "Inward", "Outward", "Cognition", "Affect", "Usability Assessment"],
+    "keysOrder": ["Context", "Device", "Population", "UI Input", "UI Output", "Inward", "Outward", "Cognition", "Affect", "Usability Assessment"],
     
     "buttonsOrder": {
-      "ContextDM": ["Disease Management"],
-      "ContextGU": ["General Usage"],
-      "ContextHP": ["Health Promotion"],
-      "ContextSE": ["Social Entertainment"],
+      "Context": ["Disease Management", "General Usage", "Health Promotion", "Social Entertainment"],
       "Device": ["Smartphone", "Tablet", "Both", "Not Reported"],
       "Population": ["General", "Health Condition", "Group / Setting"],
       "UI Input": ["Buttons", "Gesture", "Navigation", "Voice Input", "Not Reported"], 
@@ -19,7 +16,7 @@
     "groups": [
       {
         "name": "Application",
-        "keys": ["ContextDM", "ContextGU", "ContextHP", "ContextSE", "Device", "Population"]
+        "keys": ["Context", "Device", "Population"]
       },
       {
         "name": "User Interface (UI)",
