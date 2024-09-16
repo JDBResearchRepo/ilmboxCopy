@@ -158,7 +158,9 @@
     "Year": 2017,
     "DOI_URL": "10.3390/informatics4030015",
     "Author": "Goumopoulos, C.; Papa, I.; Stavrianos, A.",
-    "Context": ["Disease Management", "General Usage", "Social Entertainment"]
+    "Context": "Disease Management",
+    "Context": "General Usage", 
+    "Context": "Social Entertainment", 
     "Device": "Tablet",
     "Population": "General",
     "UI Input": "leg",
