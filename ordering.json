@@ -8,7 +8,7 @@
       "UI Input": ["Buttons", "Gesture", "Navigation", "Voice Input", "Not Reported"], 
       "UI Output": ["Audio / Text-to-Speech", "Colour & Contrast", "Icons & Imagery", "Information Design", "Text Display", "Not Reported"], 
       "Inward": ["Eyesight", "Hearing", "Touched", "Not Reported"], 
-      "Outward": ["Motor", "Sppech", "Not Reported"], 
+      "Outward": ["Motor", "Speech", "Not Reported"], 
       "Cognition": ["Cognitive Capacity", "Learning", "Memory", "Uncertainity", "Understanding", "Not Reported"], 
       "Affect": ["Pleasant", "Unpleasant", "Not Reported"],
       "Usability Assessment": ["Questionnaires", "Interviews", "Observation", "Not Reported"]
