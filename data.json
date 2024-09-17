@@ -189,7 +189,7 @@
  {
    "id": 12,
    "Paper": "Design and development of a gait training system for Parkinson's disease",
-   "Year": 20,
+   "Year": 2018,
    "DOI_URL": "10.1371/journal.pone.0207136",
    "Author": "Garzo, A.; Silva, P. A.; Garay-Vitoria, N.; Hernandez, E.; Cullen, S.; De Cock, V. C.; Ihalainen, P.; Villing, R.",
    "Context": "Disease Management",
@@ -206,7 +206,7 @@
  {
    "id": 13,
    "Paper": "App-based attention training: Incorporating older adults' feedback to facilitate home-based use",
-   "Year": 20,
+   "Year": 2018,
    "DOI_URL": "10.1111/opn.12163",
    "Author": "Hill, N. L.; Mogle, J.; Wion, R.; Kitt-Lewis, E.; Hannan, J.; Dick, R.; McDermott, C.",
    "Context": "Health Promotion",
@@ -223,7 +223,7 @@
  {
    "id": 14,
    "Paper": "A fall risk mHealth app for older adults: Development and usability study",
-   "Year": 20,
+   "Year": 2018,
    "DOI_URL": "10.2196/11569",
    "Author": "Hsieh, Katherine L.; Fanning, Jason T.; Rogers, Wendy A.; Wood, Tyler A.; Sosnoff, Jacob J.",
    "Context": "Health Promotion",
@@ -240,7 +240,7 @@
  {
    "id": 15,
    "Paper": "A mobile app (iBeni) with a neuropsychological basis for cognitive stimulation for elderly adults: Pilot and validation study",
-   "Year": 20,
+   "Year": 2018,
    "DOI_URL": "10.2196/resprot.9603",
    "Author": "Martínez-Alcalá, C. I., Rosales-Lagarde, A., Hernández-Alonso, E., Melchor-Agustin, R., Rodriguez-Torres, E. E., & Itzá-Ortiz, B. A.",
    "Context": "Disease Management",
@@ -257,7 +257,7 @@
  {
    "id": 16,
    "Paper": "Empowering senior cochlear implant users at home via a tablet computer application",
-   "Year": 20,
+   "Year": 2018,
    "DOI_URL": "10.1044/20_AJA-IMIA3--0014",
    "Author": "Philips, B.; Smits, C.; Govaerts, P. J.; Doorn, I.; Vanpoucke, F.",
    "Context": "Disease Management",
@@ -274,7 +274,7 @@
  {
    "id": 17,
    "Paper": "TapTag: Assistive gestural interactions in social media on touchscreens for older adults",
-   "Year": 20,
+   "Year": 2018,
    "DOI_URL": "10.1145/3242969.3243003",
    "Author": "Pandya, S., & El-Glaly, Y. N.",
    "Context": ["General Usage, Social Entertainment"],
