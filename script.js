@@ -153,7 +153,7 @@ function createFilters(jsonData, orderingData) {
     adjustFilterButtonsWidth();
 }
 
-// Apply the active filters to the table
+//UPDATED VERSION to see if we can have [ ] for multiple items 
 function applyFilters() {
     const activeFilters = Array.from(
         document.querySelectorAll('.filter-group')
@@ -170,7 +170,16 @@ function applyFilters() {
 
     const filteredData = originalData.filter((paper) => {
         return Object.keys(activeFilters).every((key) => {
-            return activeFilters[key].includes(paper[key]);
+            const paperValue = paper[key];
+
+            // Check if the paper's value is an array or string
+            if (Array.isArray(paperValue)) {
+                // Check if any active filter matches any item in the array
+                return activeFilters[key].some(filterValue => paperValue.includes(filterValue));
+            } else {
+                // Check if the string matches
+                return activeFilters[key].includes(paperValue);
+            }
         });
     });
 
@@ -182,6 +191,7 @@ function applyFilters() {
     // Update disabled button states
     updateDisabledButtons();
 }
+
 
 // Sort the data by the specified column
 function sortData(data, column, ascending = true) {
